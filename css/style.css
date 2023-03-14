@@ -13,10 +13,14 @@
   color: rgb(32, 31, 31);
 }
 
+.tw{
+  color: white;
+}
+
 /*STYLES*/
 
 header{
-  height: 60px;
+  height: 70px;
 }
 
 .row{
@@ -24,10 +28,28 @@ header{
 }
 
 #logo-mobile{
-  height: 30px;
+  height: 50px;
 }
 
 .fa-bell{
   color: rgb(247, 139, 0);
 }
 
+/*MAIN*/
+
+main{
+  margin-left: 10%;
+}
+
+.sidebar{
+  height: calc(100vh - 70px);
+  width: 10%;
+  position: absolute;
+  left: 0;
+  background-image: url(/img/sidebar-bg.png);
+  background-color: rgb(5, 29, 51);
+}
+
+.sidebar i{
+  padding-right: 15px;
+}
