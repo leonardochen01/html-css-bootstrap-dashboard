@@ -74,3 +74,60 @@ main{
   height: fit-content;
 }
 
+/*TABLE*/
+
+.table tr td{
+  vertical-align: middle;
+}
+
+
+.table tr td img{
+  width: 30px;
+}
+
+.table tr td .done{
+  background-color: rgb(25, 135, 84);
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: white;
+}
+
+.table tr td .failed{
+  background-color: rgb(220, 51, 67);
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: white;
+}
+
+.table tr td .process{
+  background-color: rgb(255, 192, 4);
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: white;
+}
+
+.table tr td .tool{
+  border: 1px solid rgb(108, 117, 125);
+  color: rgb(108, 117, 125);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.done:hover, .tool:hover, li:hover, .fa-sharp:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width:479px){
+
+  .table tr td:nth-child(2){
+    display: none;
+  }
+
+  .table tr td:nth-child(3){
+    display: none;
+  }
+
+}
+
+
+
