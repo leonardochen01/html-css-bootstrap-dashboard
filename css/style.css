@@ -76,6 +76,10 @@ main{
 
 /*TABLE*/
 
+.c-2{
+  width: 60%;
+}
+
 .table tr td{
   vertical-align: middle;
 }
@@ -117,7 +121,7 @@ main{
   cursor: pointer;
 }
 
-@media screen and (max-width:479px){
+@media screen and (max-width:768px){
 
   .table tr td:nth-child(2){
     display: none;
@@ -127,6 +131,9 @@ main{
     display: none;
   }
 
+  .c-2{
+    width: 100%;
+  }
 }
 
 
